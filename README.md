@@ -58,3 +58,11 @@ $(window).load(function(){
   });
 });
 ```
+
+```
+$(window).load(function() {
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+});
+```
